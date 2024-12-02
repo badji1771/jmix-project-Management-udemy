@@ -23,7 +23,8 @@
             <datePicker property="dueDate"/>
             <select property="priority"/>
             <textField property="estimation"/>
-            <textArea property="description" height="10em"/>
+            <textArea property="description" height="10em" maxLength="500" valueChangeMode="EAGER"
+                      id="descriptionField"/>
             <entityPicker property="assignee">
                 <actions>
                     <action id="entityClear" type="entity_clear"/>
